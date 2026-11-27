@@ -11,10 +11,15 @@
     <OutputPath>.</OutputPath>
     <Name>KorRihtim</Name>
     <RootNamespace>KorRihtim</RootNamespace>
-    <InterpreterId>MSBuild|RihtimRuntime|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId Condition="Exists('runtime\python.exe')">MSBuild|RihtimRuntime|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="campaign.py" />
+    <Compile Include="story.py" />
+    <Compile Include="story_ui.py" />
+    <Compile Include="locations.py" />
+    <Compile Include="evacuees.py" />
     <Compile Include="actors.py" />
     <Compile Include="art.py" />
     <Compile Include="interface.py" />

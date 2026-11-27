@@ -14,3 +14,5 @@ https://polyhaven.com/license
 Harita planı, oyun kodu, isabet ve hareket animasyonları, birinci şahıs modeli, menüler, konteyner işaretleri ve sentezlenmiş ses efektleri bu oyun için hazırlanmıştır.
 DejaVu yazı tiplerinin bildirimi assets/FONT-LICENSE.txt dosyasında, CC0 metni assets/CC0.txt dosyasındadır.
 Python lisansları runtime/LICENSE.txt içinde, Panda3D bildirimi runtime/PANDA3D-LICENSE.txt içindedir.
+
+Son Vapur için özgün Türkçe senaryo, görevler, altı konumun ses ortamları ve 3B sahneler hazırlanmıştır. Ana menü kapağı ve yeni liman malzemeleri bu sürüm için yapay zekâ ile üretilmiştir. Kapak oyunu tanıtan bir illüstrasyondur.

@@ -24,7 +24,7 @@ from panda3d.core import (
 HEADLESS = "--offscreen" in sys.argv
 loadPrcFileData(
     "KorRihtim",
-    "window-title KOR RIHTIM | Marmara Terminali\nwin-size 1280 720\n"
+    "window-title Kör Rıhtım | Son Vapur\nwin-size 1280 720\n"
     "background-color 0.42 0.50 0.53\nsync-video true\ntextures-power-2 none\n"
     "audio-library-name p3openal_audio\nframebuffer-multisample 1\nmultisamples 2\n"
     "notify-level warning\nmodel-cache-dir\n",
@@ -49,7 +49,7 @@ from layout import (
     support,
     wall_distance,
 )
-from interface import Interface
+from story_ui import StoryInterface as Interface
 from yard import build
 
 MAGAZINE = 24
@@ -697,5 +697,12 @@ class Game(ShowBase):
         return task.cont
 
 
+from campaign import Campaign
+
+
+class StoryGame(Campaign, Game):
+    """Kör Rıhtım — Son Vapur."""
+
+
 if __name__ == "__main__":
-    Game().run()
+    StoryGame().run()
