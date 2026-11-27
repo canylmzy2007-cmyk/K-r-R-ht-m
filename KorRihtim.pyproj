@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF85D624-4E9D-45C0-A743-FA779663A651}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath></SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>KorRihtim</Name>
+    <RootNamespace>KorRihtim</RootNamespace>
+    <InterpreterId>MSBuild|RihtimRuntime|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Compile Include="actors.py" />
+    <Compile Include="art.py" />
+    <Compile Include="interface.py" />
+    <Compile Include="layout.py" />
+    <Compile Include="yard.py" />
+    <Content Include="requirements.txt" />
+    <Content Include="BENI_OKU.md" />
+    <Content Include="OYNA.bat" />
+    <Interpreter Include="runtime\">
+      <Id>RihtimRuntime</Id>
+      <Description>Kör Rıhtım (Python 3.13, x64)</Description>
+      <InterpreterPath>python.exe</InterpreterPath>
+      <WindowsInterpreterPath>pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Version>3.13</Version>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

@@ -1,0 +1,16 @@
+Kör Rıhtım / Varlık kaynakları
+
+Enfekte işçi modeli MakeHuman Community'nin HM08 temel ağı, varsayılan iskelet ağırlıkları, male_worksuit01 iş tulumu, shoes04 ayakkabıları ve old_caucasian_male kaplamasından uyarlanmıştır. Geometri ve ağırlıklar oyunun iskeletine dönüştürülmüş, yüz ve giysi dokuları değiştirilmiştir. Kaynak varlıkların lisansı CC0 1.0.
+https://github.com/makehumancommunity/makehuman/tree/master/makehuman/data
+https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html
+https://static.makehumancommunity.org/about/license.html
+
+Gökyüzü ve yüzeylerde Poly Haven'ın Industrial Sunset, Concrete Floor 02 ve Rusty Metal 02 varlıkları kullanılmıştır. Görüntüler yeniden renklendirilmiş, boyutlandırılmış ve oyun için dokulara işlenmiştir. Lisans CC0 1.0.
+https://polyhaven.com/a/industrial_sunset
+https://polyhaven.com/a/concrete_floor_02
+https://polyhaven.com/a/rusty_metal_02
+https://polyhaven.com/license
+
+Harita planı, oyun kodu, isabet ve hareket animasyonları, birinci şahıs modeli, menüler, konteyner işaretleri ve sentezlenmiş ses efektleri bu oyun için hazırlanmıştır.
+DejaVu yazı tiplerinin bildirimi assets/FONT-LICENSE.txt dosyasında, CC0 metni assets/CC0.txt dosyasındadır.
+Python lisansları runtime/LICENSE.txt içinde, Panda3D bildirimi runtime/PANDA3D-LICENSE.txt içindedir.
